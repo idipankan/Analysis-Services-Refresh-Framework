@@ -1,1 +1,1 @@
-# Analysis-Services-Refresh-Framework
+### Creates a re-usable framework to trigger, and consequently monitor the status of an Azure Analysis Services database refresh. AAS Refresh status needs constant monitoring to check the status, which is difficult to implement at a notebook level. Typical alternatives include the usage of Logic Apps/Power Automate. However, with this framework, both monitoring and permanent logging (via log store as Delta format into the Datalake) is maintained.
